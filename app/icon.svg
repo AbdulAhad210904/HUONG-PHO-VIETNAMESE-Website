@@ -1,0 +1,36 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6F00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="64" height="64" rx="12" fill="url(#bgGrad)"/>
+  
+  <!-- Simplified bowl -->
+  <ellipse cx="32" cy="40" rx="18" ry="6" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M 14 40 Q 14 48 32 50 Q 50 48 50 40" fill="#F5F5F5" opacity="0.95"/>
+  
+  <!-- Noodles -->
+  <path d="M 22 36 Q 24 34 26 36 Q 28 38 30 36" 
+        stroke="#FFE082" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 30 36 Q 32 34 34 36 Q 36 38 38 36" 
+        stroke="#FFE082" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 20 38 Q 25 36 30 38" 
+        stroke="#FFCA28" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 30 38 Q 35 36 40 38" 
+        stroke="#FFCA28" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Steam -->
+  <path d="M 24 32 Q 23 28 24 24" 
+        stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 32 30 Q 31 26 32 22" 
+        stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 40 32 Q 41 28 40 24" 
+        stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Chopsticks -->
+  <rect x="38" y="30" width="1.5" height="18" fill="#CD853F" rx="0.75" transform="rotate(-25 39 39)"/>
+  <rect x="40" y="31" width="1.5" height="18" fill="#DEB887" rx="0.75" transform="rotate(-20 41 40)"/>
+</svg>

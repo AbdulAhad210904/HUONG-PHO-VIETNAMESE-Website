@@ -1,0 +1,16 @@
+{
+  "name": "Food Express",
+  "short_name": "FoodExpress",
+  "description": "Automated noodle and cake vending machines",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FF6F00",
+  "theme_color": "#FF6F00",
+  "icons": [
+    {
+      "src": "/food-express-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern gradient background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6F00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="noodleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE082;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFCA28;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="steamGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGrad)"/>
+  
+  <!-- Bowl base -->
+  <ellipse cx="100" cy="130" rx="55" ry="18" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M 45 130 Q 45 155 100 160 Q 155 155 155 130" fill="#F5F5F5" opacity="0.95"/>
+  
+  <!-- Noodles in bowl -->
+  <g filter="url(#shadow)">
+    <!-- Noodle strands with curves -->
+    <path d="M 70 120 Q 75 115 80 120 Q 85 125 90 120 Q 95 115 100 120" 
+          stroke="url(#noodleGrad)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 60 125 Q 70 120 80 125 Q 90 130 100 125" 
+          stroke="url(#noodleGrad)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 100 120 Q 105 115 110 120 Q 115 125 120 120 Q 125 115 130 120" 
+          stroke="url(#noodleGrad)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 100 125 Q 110 120 120 125 Q 130 130 140 125" 
+          stroke="url(#noodleGrad)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Steam wisps -->
+  <g opacity="0.7">
+    <path d="M 75 105 Q 73 95 75 85 Q 77 75 75 65" 
+          stroke="url(#steamGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 100 100 Q 98 90 100 80 Q 102 70 100 60" 
+          stroke="url(#steamGrad)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 125 105 Q 127 95 125 85 Q 123 75 125 65" 
+          stroke="url(#steamGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Chopsticks -->
+  <g filter="url(#shadow)">
+    <rect x="115" y="85" width="3" height="50" fill="#CD853F" rx="1.5" transform="rotate(-25 117 110)"/>
+    <rect x="120" y="88" width="3" height="50" fill="#DEB887" rx="1.5" transform="rotate(-20 122 113)"/>
+  </g>
+  
+  <!-- Speed indicator (express motion lines) -->
+  <g opacity="0.6">
+    <path d="M 25 100 L 35 100" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 20 110 L 32 110" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 22 90 L 33 90" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
