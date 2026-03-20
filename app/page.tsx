@@ -295,6 +295,29 @@ export default function Home() {
           </div>
         </div>
 
+        {/* WhatsApp Communication Banner */}
+        <div className="container mx-auto px-4 pb-16">
+          <div className="bg-green-600 rounded-2xl shadow-xl p-8 text-white text-center">
+            <div className="text-5xl mb-4">💬</div>
+            <h2 className="text-3xl font-bold mb-4">Order via WhatsApp</h2>
+            <p className="text-lg mb-6 max-w-2xl mx-auto">
+              Experience seamless ordering through WhatsApp Business. Get instant order confirmations, 
+              real-time updates, and personalized customer support directly on your phone.
+            </p>
+            <a 
+              href="https://wa.me/6598171530" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-green-600 px-8 py-3 rounded-full font-bold hover:bg-green-50 transition shadow-lg"
+            >
+              Chat With Us on WhatsApp
+            </a>
+            <p className="text-sm mt-4 opacity-90">
+              By using our WhatsApp service, you agree to our communication practices as described in our Privacy Policy.
+            </p>
+          </div>
+        </div>
+
         {/* Instagram CTA Banner */}
         <div className="container mx-auto px-4 pb-16">
           <div className="rounded-2xl shadow-xl p-8 text-white text-center" style={{ background: "linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045)" }}>
