@@ -63,9 +63,10 @@ export default function Home() {
               </div>
               {/* Mobile */}
               <div className="md:hidden flex items-center gap-3">
-                <a href="#gallery" className="text-xs font-medium" style={{ color: "#e8c97a" }}>Gallery</a>
-                <a href="#contact" className="text-xs font-medium" style={{ color: "#e8c97a" }}>Contact</a>
+                {/* <a href="#gallery" className="text-xs font-medium" style={{ color: "#e8c97a" }}>Gallery</a>
+                <a href="#contact" className="text-xs font-medium" style={{ color: "#e8c97a" }}>Contact</a> */}
                 <Link href="/privacy-policy" className="text-xs font-medium" style={{ color: "#9a8060" }}>Privacy</Link>
+                <Link href="/terms" className="text-xs font-medium" style={{ color: "#9a8060" }}>Terms</Link>
               </div>
             </div>
           </div>
@@ -301,12 +302,12 @@ export default function Home() {
             <div className="text-5xl mb-4">💬</div>
             <h2 className="text-3xl font-bold mb-4">Order via WhatsApp</h2>
             <p className="text-lg mb-6 max-w-2xl mx-auto">
-              Experience seamless ordering through WhatsApp Business. Get instant order confirmations, 
+              Experience seamless ordering through WhatsApp Business. Get instant order confirmations,
               real-time updates, and personalized customer support directly on your phone.
             </p>
-            <a 
-              href="https://wa.me/6598171530" 
-              target="_blank" 
+            <a
+              href="https://wa.me/6588615589"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-white text-green-600 px-8 py-3 rounded-full font-bold hover:bg-green-50 transition shadow-lg"
             >
